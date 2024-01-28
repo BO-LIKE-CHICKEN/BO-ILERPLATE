@@ -1,8 +1,12 @@
-# 프로젝트 커밋 컨벤션
+# BO-ILERPLATE
+
+이 프로젝트는 본인[(BO)](https://github.com/BO-LIKE-CHICKEN)이 개발 경험 중 반복적으로 마주쳤던 문제들을 빠르게 해결하기 위해 만들어진 보일러플레이트 성격의 레포지토리입니다. 이곳에는 유틸리티 함수, 커스텀 타입, 리액트 컴포넌트 등이 포함되어 있으며, 이들을 활용함으로써 개발 시간을 단축하고 코드의 품질을 향상시킬 수 있습니다.
+
+## 프로젝트 커밋 컨벤션
 
 이 프로젝트는 다음과 같은 커밋 메시지 형식을 사용합니다:
 
-## 커밋 메시지 형식
+### 커밋 메시지 형식
 
 <타입>(<범위>): <제목>
 
@@ -51,11 +55,15 @@
 <br/>
 <br/>
 
-# Project Commit Convention
+# BO-ILERPLATE
+
+This repository is a boilerplate created by BO to quickly overcome problems that were repeatedly encountered during development experiences. It includes utility functions, custom types, React components, and more, which can be utilized to reduce development time and improve code quality.
+
+## Project Commit Convention
 
 This project uses the following commit message format:
 
-## Commit Message Format
+### Commit Message Format
 
 `<type>(<scope>): <subject>`
 
