@@ -1,5 +1,6 @@
 /**
- * @description Object의 value로 이루어진 유니온 타입을 만들때 유용합니다. `enum`이 컨벤션에서 배제되는 경우 유용합니다.
+ * @description Object의 value로 이루어진 유니온 타입을 만들때 유용합니다.
+ * `enum`이 컨벤션에서 배제되는 경우 유용합니다.
  *
  * @example
  * ```
