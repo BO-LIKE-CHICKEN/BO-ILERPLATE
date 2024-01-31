@@ -7,7 +7,7 @@ import { NonEmptyArray } from "../../custom-types";
  * 주로 배열에 최소 한 개 이상의 요소가 있는지를 타입 레벨에서 확인할 때 사용됩니다.
  *
  * @typeParam T - 배열 요소의 타입.
- * @param arr - 검사할 배열.
+ * @param array - 검사할 배열.
  * @returns 배열이 비어 있지 않으면 `true`, 그렇지 않으면 `false`를 반환합니다.
  *
  * @example
@@ -19,6 +19,6 @@ import { NonEmptyArray } from "../../custom-types";
  * const isNotEmpty = isNonEmptyArray(emptyArray); // false
  * ```
  */
-export const isNonEmptyArray = <T>(arr: T[]): arr is NonEmptyArray<T> => {
-  return Array.isArray(arr) && arr.length > 0;
+export const isNonEmptyArray = <T>(array: T[]): array is NonEmptyArray<T> => {
+  return Array.isArray(array) && array.length > 0;
 };
