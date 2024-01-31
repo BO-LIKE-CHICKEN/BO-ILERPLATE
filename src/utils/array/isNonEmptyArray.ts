@@ -1,4 +1,4 @@
-import { NonEmptyArray } from "../custom-types";
+import { NonEmptyArray } from "../../custom-types";
 
 /**
  * @description 주어진 배열이 비어 있지 않은지 확인합니다.

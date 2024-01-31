@@ -25,7 +25,7 @@ type DeepPartialExample = DeepPartial<Example>;
 // }
  * ```
  */
-type DeepPartial<T> = T extends Function | (new (...args: any) => any)
+export type DeepPartial<T> = T extends Function | (new (...args: any) => any)
   ? T
   : T extends object
   ? { [P in keyof T]?: DeepPartial<T[P]> }
