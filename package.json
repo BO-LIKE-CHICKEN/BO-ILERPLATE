@@ -1,5 +1,5 @@
 {
-  "name": "BO-ILERPLATE",
+  "name": "bo-ilerpate",
   "version": "1.0.0",
   "description": "This repository is a boilerplate created by BO to quickly overcome problems that were repeatedly encountered during development experiences. It includes utility functions, custom types, React components, and more, which can be utilized to reduce development time and improve code quality.",
   "main": "index.js",
